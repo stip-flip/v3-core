@@ -1,0 +1,12 @@
+[profile.default]
+src = "contracts"
+out = "artifacts"
+libs = ["node_modules", "lib"]
+remappings = [
+    "@ensdomains/=node_modules/@ensdomains/",
+    "hardhat/=node_modules/hardhat/",
+]
+
+fs_permissions = [{ access = "read-write", path = "./" }]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
