@@ -4,11 +4,11 @@ pragma solidity >=0.6.0;
 import '../interfaces/ISynthMinimal.sol';
 import '../interfaces/IERC20Minimal.sol';
 
+import './Constants.sol';
+
 /// @title TransferHelper
 /// @notice Contains helper methods for interacting with ERC20 tokens that do not consistently return true/false
 library TransferHelper {
-    address constant WETC = 0x1953cab0E5bFa6D4a9BaD6E05fD46C1CC6527a5a;
-
     /// @notice Transfers tokens from msg.sender to a recipient
     /// @dev Errors with ST if transfer fails
     /// @param token The contract address of the token which will be transferred

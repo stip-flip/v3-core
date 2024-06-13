@@ -1,0 +1,1 @@
+address constant WETC = 0x82A618305706B14e7bcf2592D4B9324A366b6dAd;
